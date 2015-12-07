@@ -1,0 +1,22 @@
+let mapleader = "\\"
+
+set number                    " show line numbers
+set bs=indent,eol,start       " good backspacing
+set cursorline                " highlight current line
+set hlsearch                  " highlight search matches
+
+" Save
+nmap <leader>s :w<CR>
+nmap ,s :w<CR>
+
+" Insert line above
+nmap <leader>a O<ESC>
+nmap ,a O<ESC>
+
+" Insert line below
+nmap <leader>b o<ESC>
+nmap ,b o<ESC>
+
+" Hide search highlighting
+nmap <leader>h :nohl<CR>
+nmap ,h :nohl<CR>
